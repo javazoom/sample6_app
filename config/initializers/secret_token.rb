@@ -10,4 +10,4 @@ def secure_token
     File.write(token_file, token)
     token
 end end
-SampleApp::Application.config.secret_key_base = secure_token
+Sample6App::Application.config.secret_key_base = secure_token
